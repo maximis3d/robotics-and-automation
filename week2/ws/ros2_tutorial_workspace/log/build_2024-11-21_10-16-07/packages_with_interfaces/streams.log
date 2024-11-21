@@ -1,0 +1,32 @@
+[0.011s] Invoking command in '/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/build/packages_with_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/install/the_simplest_python_package:/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/install/python_package_with_a_node:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/quality_of_service_demo_py:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/lifecycle_py:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/launch_testing_examples:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_service:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_publisher:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_action_server:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_action_client:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_guard_conditions:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_executors:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_py:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py:/opt/ros/humble /usr/bin/cmake /home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/src/packages_with_interfaces -DCMAKE_INSTALL_PREFIX=/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/install/packages_with_interfaces
+[0.138s] -- The C compiler identification is GNU 11.4.0
+[0.138s] -- The CXX compiler identification is GNU 11.4.0
+[0.138s] -- Detecting C compiler ABI info
+[0.138s] -- Detecting C compiler ABI info - done
+[0.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.138s] -- Detecting C compile features
+[0.138s] -- Detecting C compile features - done
+[0.138s] -- Detecting CXX compiler ABI info
+[0.190s] -- Detecting CXX compiler ABI info - done
+[0.194s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.194s] -- Detecting CXX compile features
+[0.194s] -- Detecting CXX compile features - done
+[0.196s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.285s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.339s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.363s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.366s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.370s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.378s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.388s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.410s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.410s]   rosidl_generate_interfaces() the passed file 'msg/AmazingQuote.msg' doesn't
+[0.410s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.411s]   '/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/src/packages_with_interfaces'
+[0.411s] Call Stack (most recent call first):
+[0.411s]   CMakeLists.txt:30 (rosidl_generate_interfaces)
+[0.411s] 
+[0.411s] [0m
+[0.411s] -- Configuring incomplete, errors occurred!
+[0.411s] See also "/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/build/packages_with_interfaces/CMakeFiles/CMakeOutput.log".
+[0.415s] Invoked command in '/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/build/packages_with_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/install/the_simplest_python_package:/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/install/python_package_with_a_node:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/quality_of_service_demo_py:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/lifecycle_py:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/launch_testing_examples:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_service:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_publisher:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_action_server:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_action_client:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_guard_conditions:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_executors:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_py:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py:/opt/ros/humble /usr/bin/cmake /home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/src/packages_with_interfaces -DCMAKE_INSTALL_PREFIX=/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/install/packages_with_interfaces

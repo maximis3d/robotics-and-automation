@@ -1,0 +1,45 @@
+[3.094s] Invoking command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/src/examples/rclpy/topics/minimal_subscriber': PYTHONPATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed install_data
+[6.467s] running egg_info
+[6.471s] creating ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info
+[6.471s] writing ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[6.471s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[6.471s] writing entry points to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[6.471s] writing requirements to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[6.471s] writing top-level names to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[6.471s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[6.472s] reading manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[6.472s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[6.472s] running build
+[6.472s] running build_py
+[6.472s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_subscriber/build
+[6.472s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib
+[6.472s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.472s] copying examples_rclpy_minimal_subscriber/__init__.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.472s] copying examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.472s] copying examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.472s] copying examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.472s] running install
+[6.472s] running install_lib
+[6.472s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[6.472s] copying /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/__init__.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[6.472s] copying /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[6.472s] copying /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[6.472s] copying /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[6.472s] byte-compiling /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/__init__.py to __init__.cpython-310.pyc
+[6.472s] byte-compiling /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[6.472s] byte-compiling /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/subscriber_old_school.py to subscriber_old_school.cpython-310.pyc
+[6.472s] byte-compiling /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/subscriber_lambda.py to subscriber_lambda.cpython-310.pyc
+[6.472s] running install_data
+[6.472s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index
+[6.472s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[6.472s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[6.472s] copying resource/examples_rclpy_minimal_subscriber -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[6.472s] copying package.xml -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[6.472s] running install_egg_info
+[6.472s] Copying ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber-0.15.2-py3.10.egg-info
+[6.472s] running install_scripts
+[6.472s] Installing subscriber_lambda script to /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[6.472s] Installing subscriber_member_function script to /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[6.472s] Installing subscriber_old_school script to /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[6.472s] writing list of installed files to '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log'
+[6.492s] Invoked command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/src/examples/rclpy/topics/minimal_subscriber' returned '0': PYTHONPATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed install_data

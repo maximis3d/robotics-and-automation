@@ -1,0 +1,7 @@
+{
+  "package_name": "packages_with_interfaces",
+  "non_idl_tuples": [
+    "/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/src/packages_with_interfaces:msg/AmazingQuote.msg",
+    "/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/src/packages_with_interfaces:srv/WhatIsThePoint.srv"
+  ]
+}

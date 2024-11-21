@@ -1,0 +1,1 @@
+[0mCMake Error: The source "/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/src/package_with_interfaces/CMakeLists.txt" does not match the source "/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/src/packages_with_interfaces/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m

@@ -1,0 +1,94 @@
+[0.044s] Invoking command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/pendulum_control': AMENT_PREFIX_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/max/robotics-and-automation/week2/ws/ros2_ws/src/demos/pendulum_control -DCMAKE_INSTALL_PREFIX=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control
+[2.017s] -- The C compiler identification is GNU 11.4.0
+[2.017s] -- The CXX compiler identification is GNU 11.4.0
+[2.017s] -- Detecting C compiler ABI info
+[2.017s] -- Detecting C compiler ABI info - done
+[2.017s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.017s] -- Detecting C compile features
+[2.017s] -- Detecting C compile features - done
+[2.017s] -- Detecting CXX compiler ABI info
+[2.017s] -- Detecting CXX compiler ABI info - done
+[2.017s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.017s] -- Detecting CXX compile features
+[2.017s] -- Detecting CXX compile features - done
+[2.017s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.017s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.017s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.017s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.017s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.017s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.017s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.017s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.017s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.017s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.017s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.017s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.017s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.017s] -- Looking for pthread.h
+[2.017s] -- Looking for pthread.h - found
+[2.018s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.018s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.018s] -- Found Threads: TRUE  
+[2.018s] -- Found pendulum_msgs: 0.20.5 (/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs/share/pendulum_msgs/cmake)
+[2.018s] -- Found rttest: 0.13.0 (/opt/ros/humble/share/rttest/cmake)
+[2.018s] -- Found tlsf_cpp: 0.13.0 (/opt/ros/humble/share/tlsf_cpp/cmake)
+[2.018s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.018s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.018s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.018s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.018s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.018s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.018s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.018s] -- Found PythonExtra: .so  
+[2.021s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.024s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.024s] -- Configured cppcheck include dirs: /home/max/robotics-and-automation/week2/ws/ros2_ws/src/demos/pendulum_control/include
+[2.024s] -- Configured cppcheck exclude dirs and/or files: 
+[2.027s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.027s] -- Configured cpplint exclude dirs and/or files: 
+[2.028s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.029s] -- Added test 'lint_cmake' to check CMake code style
+[2.029s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.033s] -- Added test 'uncrustify' to check C / C++ code style
+[2.033s] -- Configured uncrustify additional arguments: 
+[2.033s] -- Added test 'xmllint' to check XML markup files
+[2.035s] -- Configuring done
+[2.048s] -- Generating done
+[2.050s] -- Build files have been written to: /home/max/robotics-and-automation/week2/ws/ros2_ws/build/pendulum_control
+[2.081s] Invoked command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/pendulum_control' returned '0': AMENT_PREFIX_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/max/robotics-and-automation/week2/ws/ros2_ws/src/demos/pendulum_control -DCMAKE_INSTALL_PREFIX=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control
+[2.085s] Invoking command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/pendulum_control': AMENT_PREFIX_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/max/robotics-and-automation/week2/ws/ros2_ws/build/pendulum_control -- -j16 -l16
+[2.156s] [ 16%] [32mBuilding CXX object CMakeFiles/pendulum_demo.dir/src/pendulum_demo.cpp.o[0m
+[9.478s] [ 33%] [32m[1mLinking CXX executable pendulum_demo[0m
+[9.767s] [ 33%] Built target pendulum_demo
+[9.780s] [ 50%] [32mBuilding CXX object CMakeFiles/pendulum_teleop.dir/src/pendulum_teleop.cpp.o[0m
+[11.796s] [ 66%] [32m[1mLinking CXX executable pendulum_teleop[0m
+[11.882s] [ 66%] Built target pendulum_teleop
+[11.894s] [ 83%] [32mBuilding CXX object CMakeFiles/pendulum_logger.dir/src/pendulum_logger.cpp.o[0m
+[15.859s] [100%] [32m[1mLinking CXX executable pendulum_logger[0m
+[16.017s] [100%] Built target pendulum_logger
+[16.027s] Invoked command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/pendulum_control' returned '0': AMENT_PREFIX_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/max/robotics-and-automation/week2/ws/ros2_ws/build/pendulum_control -- -j16 -l16
+[16.046s] Invoking command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/pendulum_control': AMENT_PREFIX_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/max/robotics-and-automation/week2/ws/ros2_ws/build/pendulum_control
+[16.050s] -- Install configuration: ""
+[16.050s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/bin/pendulum_demo
+[16.054s] -- Set runtime path of "/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/bin/pendulum_demo" to ""
+[16.054s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/bin/pendulum_logger
+[16.056s] -- Set runtime path of "/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/bin/pendulum_logger" to ""
+[16.057s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/bin/pendulum_teleop
+[16.057s] -- Set runtime path of "/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/bin/pendulum_teleop" to ""
+[16.057s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/bin/pendulum_launch.bash
+[16.057s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/share/ament_index/resource_index/package_run_dependencies/pendulum_control
+[16.058s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/share/ament_index/resource_index/parent_prefix_path/pendulum_control
+[16.058s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/share/pendulum_control/environment/ament_prefix_path.sh
+[16.058s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/share/pendulum_control/environment/ament_prefix_path.dsv
+[16.058s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/share/pendulum_control/environment/path.sh
+[16.058s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/share/pendulum_control/environment/path.dsv
+[16.058s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/share/pendulum_control/local_setup.bash
+[16.058s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/share/pendulum_control/local_setup.sh
+[16.058s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/share/pendulum_control/local_setup.zsh
+[16.058s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/share/pendulum_control/local_setup.dsv
+[16.058s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/share/pendulum_control/package.dsv
+[16.058s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/share/ament_index/resource_index/packages/pendulum_control
+[16.058s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/share/pendulum_control/cmake/pendulum_controlConfig.cmake
+[16.059s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/share/pendulum_control/cmake/pendulum_controlConfig-version.cmake
+[16.059s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_control/share/pendulum_control/package.xml
+[16.060s] Invoked command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/pendulum_control' returned '0': AMENT_PREFIX_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/pendulum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/max/robotics-and-automation/week2/ws/ros2_ws/build/pendulum_control

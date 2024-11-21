@@ -1,0 +1,129 @@
+[0.095s] Invoking command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/max/robotics-and-automation/week2/ws/ros2_ws/src/examples/rclcpp/wait_set -DCMAKE_INSTALL_PREFIX=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set
+[0.502s] -- The C compiler identification is GNU 11.4.0
+[0.502s] -- The CXX compiler identification is GNU 11.4.0
+[0.502s] -- Detecting C compiler ABI info
+[0.513s] -- Detecting C compiler ABI info - done
+[0.526s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.526s] -- Detecting C compile features
+[0.526s] -- Detecting C compile features - done
+[0.529s] -- Detecting CXX compiler ABI info
+[0.693s] -- Detecting CXX compiler ABI info - done
+[0.704s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.705s] -- Detecting CXX compile features
+[0.705s] -- Detecting CXX compile features - done
+[0.711s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.968s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.160s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.234s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.240s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.260s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.274s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.304s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.394s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.447s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.454s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.632s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.699s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.777s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.794s] -- Looking for pthread.h
+[1.934s] -- Looking for pthread.h - found
+[1.934s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.100s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.101s] -- Found Threads: TRUE  
+[2.201s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.270s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.432s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.446s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.446s] -- Configured cppcheck include dirs: /home/max/robotics-and-automation/week2/ws/ros2_ws/src/examples/rclcpp/wait_set/include
+[2.446s] -- Configured cppcheck exclude dirs and/or files: 
+[2.446s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.446s] -- Configured cpplint exclude dirs and/or files: 
+[2.452s] -- Added test 'lint_cmake' to check CMake code style
+[2.455s] -- Added test 'uncrustify' to check C / C++ code style
+[2.455s] -- Configured uncrustify additional arguments: 
+[2.455s] -- Added test 'xmllint' to check XML markup files
+[2.455s] -- Configuring done
+[2.619s] -- Generating done
+[2.619s] -- Build files have been written to: /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_wait_set
+[4.718s] Invoked command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/max/robotics-and-automation/week2/ws/ros2_ws/src/examples/rclcpp/wait_set -DCMAKE_INSTALL_PREFIX=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set
+[4.718s] Invoking command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_wait_set -- -j16 -l16
+[4.833s] [  4%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[4.850s] [  8%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[4.854s] [ 12%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[4.866s] [ 16%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[4.883s] [ 20%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[4.918s] [ 29%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[4.918s] [ 29%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[4.934s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[4.942s] [ 37%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[4.942s] [ 41%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[4.957s] [ 45%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[11.817s] [ 50%] [32m[1mLinking CXX executable wait_set_talker[0m
+[12.344s] [ 50%] Built target wait_set_talker
+[15.345s] [ 54%] [32m[1mLinking CXX executable wait_set_listener[0m
+[15.742s] [ 54%] Built target wait_set_listener
+[18.112s] [ 58%] [32m[1mLinking CXX shared library libtalker.so[0m
+[18.548s] [ 58%] Built target talker
+[22.074s] [ 62%] [32m[1mLinking CXX executable static_wait_set[0m
+[22.765s] [ 62%] Built target static_wait_set
+[24.671s] [ 66%] [32m[1mLinking CXX executable executor_random_order[0m
+[25.192s] [ 70%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[25.381s] [ 70%] Built target executor_random_order
+[25.522s] [ 75%] [32m[1mLinking CXX shared library liblistener.so[0m
+[25.730s] [ 79%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[25.751s] [ 83%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[25.899s] [ 83%] Built target wait_set_topics_and_timer
+[26.020s] [ 83%] Built target listener
+[26.196s] [ 83%] Built target wait_set_topics_with_different_rates
+[26.298s] [ 83%] Built target wait_set_random_order
+[26.481s] [ 87%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[26.522s] [ 91%] [32m[1mLinking CXX executable wait_set[0m
+[26.876s] [ 91%] Built target thread_safe_wait_set
+[26.894s] [ 91%] Built target wait_set
+[26.909s] [ 95%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[28.730s] [100%] [32m[1mLinking CXX executable wait_set_composed[0m
+[28.829s] [100%] Built target wait_set_composed
+[28.839s] Invoked command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_wait_set -- -j16 -l16
+[28.871s] Invoking command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_wait_set
+[28.876s] -- Install configuration: ""
+[28.876s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[28.877s] -- Set runtime path of "/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker" to ""
+[28.877s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[28.877s] -- Set runtime path of "/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener" to ""
+[28.877s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[28.878s] -- Set runtime path of "/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/libtalker.so" to ""
+[28.878s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[28.883s] -- Set runtime path of "/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/liblistener.so" to ""
+[28.883s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[28.886s] -- Set runtime path of "/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set" to ""
+[28.886s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[28.888s] -- Set runtime path of "/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set" to ""
+[28.888s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[28.891s] -- Set runtime path of "/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set" to ""
+[28.891s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[28.893s] -- Set runtime path of "/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer" to ""
+[28.893s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[28.896s] -- Set runtime path of "/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order" to ""
+[28.896s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[28.898s] -- Set runtime path of "/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order" to ""
+[28.898s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[28.900s] -- Set runtime path of "/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates" to ""
+[28.900s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[28.901s] -- Set runtime path of "/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed" to ""
+[28.901s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[28.901s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[28.901s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[28.901s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[28.901s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[28.901s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[28.901s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[28.901s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[28.901s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[28.902s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[28.902s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[28.902s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[28.902s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[28.902s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[28.902s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[28.902s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[28.904s] Invoked command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_wait_set

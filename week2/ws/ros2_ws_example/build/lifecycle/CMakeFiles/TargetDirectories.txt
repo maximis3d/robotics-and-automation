@@ -1,0 +1,12 @@
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/lifecycle/CMakeFiles/uninstall.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/lifecycle/CMakeFiles/lifecycle_uninstall.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/lifecycle/CMakeFiles/lifecycle_talker.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/lifecycle/CMakeFiles/lifecycle_listener.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/lifecycle/CMakeFiles/lifecycle_service_client.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/lifecycle/CMakeFiles/test.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/lifecycle/CMakeFiles/edit_cache.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/lifecycle/CMakeFiles/rebuild_cache.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/lifecycle/CMakeFiles/list_install_components.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/lifecycle/CMakeFiles/install.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/lifecycle/CMakeFiles/install/local.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/lifecycle/CMakeFiles/install/strip.dir

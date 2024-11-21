@@ -1,0 +1,12 @@
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/image_tools/CMakeFiles/uninstall.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/image_tools/CMakeFiles/image_tools_uninstall.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/image_tools/CMakeFiles/image_tools.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/image_tools/CMakeFiles/cam2image.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/image_tools/CMakeFiles/showimage.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/image_tools/CMakeFiles/test.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/image_tools/CMakeFiles/edit_cache.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/image_tools/CMakeFiles/rebuild_cache.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/image_tools/CMakeFiles/list_install_components.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/image_tools/CMakeFiles/install.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/image_tools/CMakeFiles/install/local.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/image_tools/CMakeFiles/install/strip.dir

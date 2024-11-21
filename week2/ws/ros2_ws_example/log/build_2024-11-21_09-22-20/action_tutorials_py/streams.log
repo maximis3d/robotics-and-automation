@@ -1,0 +1,41 @@
+[1.375s] Invoking command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/src/demos/action_tutorials/action_tutorials_py': AMENT_PREFIX_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_interfaces LD_LIBRARY_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/build/action_tutorials_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/action_tutorials_py build --build-base /home/max/robotics-and-automation/week2/ws/ros2_ws/build/action_tutorials_py/build install --record /home/max/robotics-and-automation/week2/ws/ros2_ws/build/action_tutorials_py/install.log --single-version-externally-managed install_data
+[9.784s] running egg_info
+[9.784s] creating ../../../../build/action_tutorials_py/action_tutorials_py.egg-info
+[9.784s] writing ../../../../build/action_tutorials_py/action_tutorials_py.egg-info/PKG-INFO
+[9.784s] writing dependency_links to ../../../../build/action_tutorials_py/action_tutorials_py.egg-info/dependency_links.txt
+[9.784s] writing entry points to ../../../../build/action_tutorials_py/action_tutorials_py.egg-info/entry_points.txt
+[9.784s] writing requirements to ../../../../build/action_tutorials_py/action_tutorials_py.egg-info/requires.txt
+[9.784s] writing top-level names to ../../../../build/action_tutorials_py/action_tutorials_py.egg-info/top_level.txt
+[9.784s] writing manifest file '../../../../build/action_tutorials_py/action_tutorials_py.egg-info/SOURCES.txt'
+[9.784s] reading manifest file '../../../../build/action_tutorials_py/action_tutorials_py.egg-info/SOURCES.txt'
+[9.784s] writing manifest file '../../../../build/action_tutorials_py/action_tutorials_py.egg-info/SOURCES.txt'
+[9.784s] running build
+[9.784s] running build_py
+[9.784s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/build/action_tutorials_py/build
+[9.784s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/build/action_tutorials_py/build/lib
+[9.784s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py
+[9.784s] copying action_tutorials_py/__init__.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py
+[9.784s] copying action_tutorials_py/fibonacci_action_server.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py
+[9.784s] copying action_tutorials_py/fibonacci_action_client.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py
+[9.784s] running install
+[9.784s] running install_lib
+[9.785s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py
+[9.785s] copying /home/max/robotics-and-automation/week2/ws/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py/__init__.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py
+[9.785s] copying /home/max/robotics-and-automation/week2/ws/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py/fibonacci_action_server.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py
+[9.790s] copying /home/max/robotics-and-automation/week2/ws/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py/fibonacci_action_client.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py
+[9.790s] byte-compiling /home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py/__init__.py to __init__.cpython-310.pyc
+[9.790s] byte-compiling /home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py/fibonacci_action_server.py to fibonacci_action_server.cpython-310.pyc
+[9.790s] byte-compiling /home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py/fibonacci_action_client.py to fibonacci_action_client.cpython-310.pyc
+[9.790s] running install_data
+[9.790s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py/share/ament_index
+[9.790s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py/share/ament_index/resource_index
+[9.790s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py/share/ament_index/resource_index/packages
+[9.790s] copying resource/action_tutorials_py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py/share/ament_index/resource_index/packages
+[9.790s] copying package.xml -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py/share/action_tutorials_py
+[9.790s] running install_egg_info
+[9.790s] Copying ../../../../build/action_tutorials_py/action_tutorials_py.egg-info to /home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py-0.20.5-py3.10.egg-info
+[9.790s] running install_scripts
+[9.790s] Installing fibonacci_action_client script to /home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py/lib/action_tutorials_py
+[9.790s] Installing fibonacci_action_server script to /home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py/lib/action_tutorials_py
+[9.790s] writing list of installed files to '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/action_tutorials_py/install.log'
+[9.819s] Invoked command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/src/demos/action_tutorials/action_tutorials_py' returned '0': AMENT_PREFIX_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_interfaces LD_LIBRARY_PATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/build/action_tutorials_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/action_tutorials_py build --build-base /home/max/robotics-and-automation/week2/ws/ros2_ws/build/action_tutorials_py/build install --record /home/max/robotics-and-automation/week2/ws/ros2_ws/build/action_tutorials_py/install.log --single-version-externally-managed install_data

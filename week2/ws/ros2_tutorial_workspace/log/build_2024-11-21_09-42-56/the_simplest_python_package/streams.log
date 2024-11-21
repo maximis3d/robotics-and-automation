@@ -1,0 +1,20 @@
+[0.417s] Invoking command in '/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/src/the_simplest_python_package': PYTHONPATH=/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/build/the_simplest_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/the_simplest_python_package build --build-base /home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/build/the_simplest_python_package/build install --record /home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/build/the_simplest_python_package/install.log --single-version-externally-managed install_data
+[0.530s] running egg_info
+[0.530s] writing ../../build/the_simplest_python_package/the_simplest_python_package.egg-info/PKG-INFO
+[0.530s] writing dependency_links to ../../build/the_simplest_python_package/the_simplest_python_package.egg-info/dependency_links.txt
+[0.530s] writing entry points to ../../build/the_simplest_python_package/the_simplest_python_package.egg-info/entry_points.txt
+[0.530s] writing requirements to ../../build/the_simplest_python_package/the_simplest_python_package.egg-info/requires.txt
+[0.530s] writing top-level names to ../../build/the_simplest_python_package/the_simplest_python_package.egg-info/top_level.txt
+[0.531s] reading manifest file '../../build/the_simplest_python_package/the_simplest_python_package.egg-info/SOURCES.txt'
+[0.531s] writing manifest file '../../build/the_simplest_python_package/the_simplest_python_package.egg-info/SOURCES.txt'
+[0.531s] running build
+[0.531s] running build_py
+[0.532s] running install
+[0.532s] running install_lib
+[0.532s] running install_data
+[0.532s] running install_egg_info
+[0.533s] removing '/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.10/site-packages/the_simplest_python_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.533s] Copying ../../build/the_simplest_python_package/the_simplest_python_package.egg-info to /home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.10/site-packages/the_simplest_python_package-0.0.0-py3.10.egg-info
+[0.534s] running install_scripts
+[0.543s] writing list of installed files to '/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/build/the_simplest_python_package/install.log'
+[0.559s] Invoked command in '/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/src/the_simplest_python_package' returned '0': PYTHONPATH=/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/build/the_simplest_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/the_simplest_python_package build --build-base /home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/build/the_simplest_python_package/build install --record /home/max/robotics-and-automation/week2/ws/ros2_tutorial_workspace/build/the_simplest_python_package/install.log --single-version-externally-managed install_data

@@ -1,0 +1,83 @@
+[0.025s] Invoking command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/demo_nodes_cpp_native': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/max/robotics-and-automation/week2/ws/ros2_ws/src/demos/demo_nodes_cpp_native -DCMAKE_INSTALL_PREFIX=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native
+[0.180s] -- The C compiler identification is GNU 11.4.0
+[0.180s] -- The CXX compiler identification is GNU 11.4.0
+[0.180s] -- Detecting C compiler ABI info
+[0.199s] -- Detecting C compiler ABI info - done
+[0.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.204s] -- Detecting C compile features
+[0.205s] -- Detecting C compile features - done
+[0.208s] -- Detecting CXX compiler ABI info
+[0.278s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.284s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.408s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.507s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.510s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.517s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.524s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.533s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.606s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.629s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.660s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.696s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.697s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.702s] -- Looking for pthread.h
+[0.758s] -- Looking for pthread.h - found
+[0.758s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.812s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.812s] -- Found Threads: TRUE  
+[0.853s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.885s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.954s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.972s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.973s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.973s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.973s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.973s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.987s] -- Found PythonExtra: .so  
+[1.001s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.001s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.001s] -- Configured cppcheck include dirs: /home/max/robotics-and-automation/week2/ws/ros2_ws/src/demos/demo_nodes_cpp_native/include
+[1.001s] -- Configured cppcheck exclude dirs and/or files: 
+[1.001s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.001s] -- Configured cpplint exclude dirs and/or files: 
+[1.001s] -- Added test 'lint_cmake' to check CMake code style
+[1.010s] -- Added test 'uncrustify' to check C / C++ code style
+[1.010s] -- Configured uncrustify additional arguments: 
+[1.010s] -- Added test 'xmllint' to check XML markup files
+[1.011s] -- Configuring done
+[1.028s] -- Generating done
+[1.032s] -- Build files have been written to: /home/max/robotics-and-automation/week2/ws/ros2_ws/build/demo_nodes_cpp_native
+[1.099s] Invoked command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/demo_nodes_cpp_native' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/max/robotics-and-automation/week2/ws/ros2_ws/src/demos/demo_nodes_cpp_native -DCMAKE_INSTALL_PREFIX=/home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native
+[1.100s] Invoking command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/demo_nodes_cpp_native': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/max/robotics-and-automation/week2/ws/ros2_ws/build/demo_nodes_cpp_native -- -j16 -l16
+[3.969s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/rclcpp_components/node_main_talker.cpp.o[0m
+[3.969s] [ 50%] [32mBuilding CXX object CMakeFiles/talker_native.dir/src/talker.cpp.o[0m
+[11.638s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[12.006s] [ 75%] Built target talker
+[16.954s] [100%] [32m[1mLinking CXX shared library libtalker_native.so[0m
+[18.573s] [100%] Built target talker_native
+[19.349s] Invoked command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/demo_nodes_cpp_native' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/max/robotics-and-automation/week2/ws/ros2_ws/build/demo_nodes_cpp_native -- -j16 -l16
+[19.450s] Invoking command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/demo_nodes_cpp_native': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/max/robotics-and-automation/week2/ws/ros2_ws/build/demo_nodes_cpp_native
+[20.091s] -- Install configuration: ""
+[20.091s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/lib/demo_nodes_cpp_native/talker
+[20.091s] -- Set runtime path of "/home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/lib/demo_nodes_cpp_native/talker" to ""
+[20.091s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/lib/libtalker_native.so
+[20.091s] -- Set runtime path of "/home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/lib/libtalker_native.so" to ""
+[20.092s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/share/ament_index/resource_index/package_run_dependencies/demo_nodes_cpp_native
+[20.092s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/share/ament_index/resource_index/parent_prefix_path/demo_nodes_cpp_native
+[20.092s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/environment/ament_prefix_path.sh
+[20.092s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/environment/ament_prefix_path.dsv
+[20.092s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/environment/path.sh
+[20.092s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/environment/path.dsv
+[20.092s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/local_setup.bash
+[20.092s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/local_setup.sh
+[20.092s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/local_setup.zsh
+[20.092s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/local_setup.dsv
+[20.092s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/package.dsv
+[20.092s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/share/ament_index/resource_index/packages/demo_nodes_cpp_native
+[20.092s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/share/ament_index/resource_index/rclcpp_components/demo_nodes_cpp_native
+[20.092s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/cmake/demo_nodes_cpp_nativeConfig.cmake
+[20.092s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/cmake/demo_nodes_cpp_nativeConfig-version.cmake
+[20.092s] -- Installing: /home/max/robotics-and-automation/week2/ws/ros2_ws/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/package.xml
+[20.122s] Invoked command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/demo_nodes_cpp_native' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/max/robotics-and-automation/week2/ws/ros2_ws/build/demo_nodes_cpp_native

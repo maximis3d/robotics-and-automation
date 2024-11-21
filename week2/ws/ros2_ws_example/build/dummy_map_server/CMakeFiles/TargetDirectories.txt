@@ -1,0 +1,10 @@
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/dummy_map_server/CMakeFiles/uninstall.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/dummy_map_server/CMakeFiles/dummy_map_server_uninstall.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/dummy_map_server/CMakeFiles/dummy_map_server.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/dummy_map_server/CMakeFiles/test.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/dummy_map_server/CMakeFiles/edit_cache.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/dummy_map_server/CMakeFiles/rebuild_cache.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/dummy_map_server/CMakeFiles/list_install_components.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/dummy_map_server/CMakeFiles/install.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/dummy_map_server/CMakeFiles/install/local.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/dummy_map_server/CMakeFiles/install/strip.dir

@@ -1,0 +1,10 @@
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_service/CMakeFiles/uninstall.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_service/CMakeFiles/examples_rclcpp_minimal_service_uninstall.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_service/CMakeFiles/service_main.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_service/CMakeFiles/test.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_service/CMakeFiles/edit_cache.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_service/CMakeFiles/rebuild_cache.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_service/CMakeFiles/list_install_components.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_service/CMakeFiles/install.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_service/CMakeFiles/install/local.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_service/CMakeFiles/install/strip.dir

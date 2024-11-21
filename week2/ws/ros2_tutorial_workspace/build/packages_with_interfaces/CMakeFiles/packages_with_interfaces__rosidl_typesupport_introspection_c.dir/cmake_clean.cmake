@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/packages_with_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/packages_with_interfaces/msg/detail/amazing_quote__type_support.c.o"
+  "CMakeFiles/packages_with_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/packages_with_interfaces/msg/detail/amazing_quote__type_support.c.o.d"
+  "CMakeFiles/packages_with_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/packages_with_interfaces/srv/detail/what_is_the_point__type_support.c.o"
+  "CMakeFiles/packages_with_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/packages_with_interfaces/srv/detail/what_is_the_point__type_support.c.o.d"
+  "libpackages_with_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libpackages_with_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/packages_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/packages_with_interfaces/msg/detail/amazing_quote__type_support.c"
+  "rosidl_typesupport_introspection_c/packages_with_interfaces/srv/detail/what_is_the_point__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/packages_with_interfaces/srv/detail/what_is_the_point__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/packages_with_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

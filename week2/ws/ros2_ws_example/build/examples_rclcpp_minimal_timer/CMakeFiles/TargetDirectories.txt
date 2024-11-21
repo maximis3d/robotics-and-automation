@@ -1,0 +1,11 @@
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_timer/CMakeFiles/uninstall.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_timer/CMakeFiles/examples_rclcpp_minimal_timer_uninstall.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_timer/CMakeFiles/timer_lambda.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_timer/CMakeFiles/timer_member_function.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_timer/CMakeFiles/test.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_timer/CMakeFiles/edit_cache.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_timer/CMakeFiles/rebuild_cache.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_timer/CMakeFiles/list_install_components.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_timer/CMakeFiles/install.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_timer/CMakeFiles/install/local.dir
+/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclcpp_minimal_timer/CMakeFiles/install/strip.dir

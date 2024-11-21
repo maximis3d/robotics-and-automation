@@ -1,0 +1,49 @@
+[3.570s] Invoking command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/src/examples/rclpy/services/minimal_client': PYTHONPATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/build install --record /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed install_data
+[6.594s] running egg_info
+[6.594s] creating ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info
+[6.594s] writing ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/PKG-INFO
+[6.594s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[6.594s] writing entry points to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/entry_points.txt
+[6.594s] writing requirements to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/requires.txt
+[6.594s] writing top-level names to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/top_level.txt
+[6.594s] writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[6.594s] reading manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[6.594s] writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[6.594s] running build
+[6.594s] running build_py
+[6.594s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/build
+[6.594s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/build/lib
+[6.594s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[6.594s] copying examples_rclpy_minimal_client/__init__.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[6.594s] copying examples_rclpy_minimal_client/client_async_member_function.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[6.594s] copying examples_rclpy_minimal_client/client_async.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[6.594s] copying examples_rclpy_minimal_client/client.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[6.594s] copying examples_rclpy_minimal_client/client_async_callback.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[6.594s] running install
+[6.594s] running install_lib
+[6.594s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[6.594s] copying /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/__init__.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[6.594s] copying /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_member_function.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[6.595s] copying /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[6.595s] copying /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[6.595s] copying /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_callback.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[6.595s] byte-compiling /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/__init__.py to __init__.cpython-310.pyc
+[6.595s] byte-compiling /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client_async_member_function.py to client_async_member_function.cpython-310.pyc
+[6.595s] byte-compiling /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client_async.py to client_async.cpython-310.pyc
+[6.595s] byte-compiling /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client.py to client.cpython-310.pyc
+[6.595s] byte-compiling /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client_async_callback.py to client_async_callback.cpython-310.pyc
+[6.595s] running install_data
+[6.595s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index
+[6.595s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index
+[6.595s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[6.595s] copying resource/examples_rclpy_minimal_client -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[6.595s] copying package.xml -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/share/examples_rclpy_minimal_client
+[6.595s] running install_egg_info
+[6.595s] Copying ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info to /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client-0.15.2-py3.10.egg-info
+[6.595s] running install_scripts
+[6.595s] Installing client script to /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[6.595s] Installing client_async script to /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[6.595s] Installing client_async_callback script to /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[6.595s] Installing client_async_member_function script to /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[6.595s] writing list of installed files to '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/install.log'
+[7.605s] Invoked command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/src/examples/rclpy/services/minimal_client' returned '0': PYTHONPATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/build install --record /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed install_data

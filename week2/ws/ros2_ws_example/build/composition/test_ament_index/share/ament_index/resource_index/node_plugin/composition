@@ -1,0 +1,5 @@
+composition::Talker;/home/max/robotics-and-automation/week2/ws/ros2_ws/build/composition/libtalker_component.so
+composition::Listener;/home/max/robotics-and-automation/week2/ws/ros2_ws/build/composition/liblistener_component.so
+composition::NodeLikeListener;/home/max/robotics-and-automation/week2/ws/ros2_ws/build/composition/libnode_like_listener_component.so
+composition::Server;/home/max/robotics-and-automation/week2/ws/ros2_ws/build/composition/libserver_component.so
+composition::Client;/home/max/robotics-and-automation/week2/ws/ros2_ws/build/composition/libclient_component.so

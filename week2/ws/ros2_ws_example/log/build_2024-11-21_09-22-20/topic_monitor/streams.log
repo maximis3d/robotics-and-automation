@@ -1,0 +1,50 @@
+[1.970s] Invoking command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/src/demos/topic_monitor': PYTHONPATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/topic_monitor build --build-base /home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/build install --record /home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/install.log --single-version-externally-managed install_data
+[7.955s] running egg_info
+[7.955s] creating ../../../build/topic_monitor/topic_monitor.egg-info
+[7.955s] writing ../../../build/topic_monitor/topic_monitor.egg-info/PKG-INFO
+[7.956s] writing dependency_links to ../../../build/topic_monitor/topic_monitor.egg-info/dependency_links.txt
+[7.956s] writing entry points to ../../../build/topic_monitor/topic_monitor.egg-info/entry_points.txt
+[7.956s] writing requirements to ../../../build/topic_monitor/topic_monitor.egg-info/requires.txt
+[7.956s] writing top-level names to ../../../build/topic_monitor/topic_monitor.egg-info/top_level.txt
+[7.956s] writing manifest file '../../../build/topic_monitor/topic_monitor.egg-info/SOURCES.txt'
+[7.956s] reading manifest file '../../../build/topic_monitor/topic_monitor.egg-info/SOURCES.txt'
+[7.956s] writing manifest file '../../../build/topic_monitor/topic_monitor.egg-info/SOURCES.txt'
+[7.956s] running build
+[7.956s] running build_py
+[7.956s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/build
+[7.956s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/build/lib
+[7.956s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/build/lib/topic_monitor
+[7.956s] copying topic_monitor/__init__.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/build/lib/topic_monitor
+[7.956s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/build/lib/topic_monitor/scripts
+[7.956s] copying topic_monitor/scripts/__init__.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/build/lib/topic_monitor/scripts
+[7.956s] copying topic_monitor/scripts/data_publisher.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/build/lib/topic_monitor/scripts
+[7.956s] copying topic_monitor/scripts/topic_monitor.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/build/lib/topic_monitor/scripts
+[7.956s] running install
+[7.956s] running install_lib
+[7.956s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/lib/python3.10/site-packages/topic_monitor
+[7.956s] copying /home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/build/lib/topic_monitor/__init__.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/lib/python3.10/site-packages/topic_monitor
+[7.956s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/lib/python3.10/site-packages/topic_monitor/scripts
+[7.956s] copying /home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/build/lib/topic_monitor/scripts/__init__.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/lib/python3.10/site-packages/topic_monitor/scripts
+[7.956s] copying /home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/build/lib/topic_monitor/scripts/data_publisher.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/lib/python3.10/site-packages/topic_monitor/scripts
+[7.956s] copying /home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/build/lib/topic_monitor/scripts/topic_monitor.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/lib/python3.10/site-packages/topic_monitor/scripts
+[7.956s] byte-compiling /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/lib/python3.10/site-packages/topic_monitor/__init__.py to __init__.cpython-310.pyc
+[7.956s] byte-compiling /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/lib/python3.10/site-packages/topic_monitor/scripts/__init__.py to __init__.cpython-310.pyc
+[7.956s] byte-compiling /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/lib/python3.10/site-packages/topic_monitor/scripts/data_publisher.py to data_publisher.cpython-310.pyc
+[7.956s] byte-compiling /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/lib/python3.10/site-packages/topic_monitor/scripts/topic_monitor.py to topic_monitor.cpython-310.pyc
+[7.957s] running install_data
+[7.957s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/share/ament_index
+[7.957s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/share/ament_index/resource_index
+[7.957s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/share/ament_index/resource_index/packages
+[7.957s] copying resource/topic_monitor -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/share/ament_index/resource_index/packages
+[7.957s] copying package.xml -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/share/topic_monitor
+[7.957s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/share/topic_monitor/launch
+[7.957s] copying launch/fragmentation_demo.launch.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/share/topic_monitor/launch
+[7.957s] copying launch/depth_demo.launch.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/share/topic_monitor/launch
+[7.957s] copying launch/reliability_demo.launch.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/share/topic_monitor/launch
+[7.957s] running install_egg_info
+[7.957s] Copying ../../../build/topic_monitor/topic_monitor.egg-info to /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/lib/python3.10/site-packages/topic_monitor-0.20.5-py3.10.egg-info
+[7.957s] running install_scripts
+[7.957s] Installing data_publisher script to /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/lib/topic_monitor
+[7.957s] Installing topic_monitor script to /home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/lib/topic_monitor
+[7.957s] writing list of installed files to '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/install.log'
+[7.972s] Invoked command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/src/demos/topic_monitor' returned '0': PYTHONPATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/topic_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/topic_monitor build --build-base /home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/build install --record /home/max/robotics-and-automation/week2/ws/ros2_ws/build/topic_monitor/install.log --single-version-externally-managed install_data

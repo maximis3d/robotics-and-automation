@@ -1,0 +1,37 @@
+[1.908s] Invoking command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/src/examples/rclpy/topics/pointcloud_publisher': PYTHONPATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_pointcloud_publisher build --build-base /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_pointcloud_publisher/build install --record /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_pointcloud_publisher/install.log --single-version-externally-managed install_data
+[6.195s] running egg_info
+[6.195s] creating ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info
+[6.195s] writing ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/PKG-INFO
+[6.195s] writing dependency_links to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/dependency_links.txt
+[6.195s] writing entry points to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/entry_points.txt
+[6.195s] writing requirements to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/requires.txt
+[6.195s] writing top-level names to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/top_level.txt
+[6.195s] writing manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[6.195s] reading manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[6.195s] writing manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[6.195s] running build
+[6.195s] running build_py
+[6.195s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_pointcloud_publisher/build
+[6.195s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_pointcloud_publisher/build/lib
+[6.195s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[6.195s] copying examples_rclpy_pointcloud_publisher/__init__.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[6.195s] copying examples_rclpy_pointcloud_publisher/pointcloud_publisher.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[6.195s] running install
+[6.196s] running install_lib
+[6.196s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher
+[6.196s] copying /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher/__init__.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher
+[6.196s] copying /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher/pointcloud_publisher.py -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher
+[6.196s] byte-compiling /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher/__init__.py to __init__.cpython-310.pyc
+[6.196s] byte-compiling /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher/pointcloud_publisher.py to pointcloud_publisher.cpython-310.pyc
+[6.196s] running install_data
+[6.196s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index
+[6.196s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index
+[6.196s] creating /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[6.196s] copying resource/examples_rclpy_pointcloud_publisher -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[6.196s] copying package.xml -> /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_pointcloud_publisher/share/examples_rclpy_pointcloud_publisher
+[6.196s] running install_egg_info
+[6.196s] Copying ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info to /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher-0.15.2-py3.10.egg-info
+[6.196s] running install_scripts
+[6.196s] Installing pointcloud_publisher script to /home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/examples_rclpy_pointcloud_publisher
+[6.196s] writing list of installed files to '/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_pointcloud_publisher/install.log'
+[6.211s] Invoked command in '/home/max/robotics-and-automation/week2/ws/ros2_ws/src/examples/rclpy/topics/pointcloud_publisher' returned '0': PYTHONPATH=/home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/robotics-and-automation/week2/ws/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_pointcloud_publisher build --build-base /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_pointcloud_publisher/build install --record /home/max/robotics-and-automation/week2/ws/ros2_ws/build/examples_rclpy_pointcloud_publisher/install.log --single-version-externally-managed install_data
