@@ -12,8 +12,8 @@ class DrawCircleNode(Node):
 
     def send_velocity_command(self):
         msg = Twist()
-        msg.linear.x = 1.0 # Set linear velocity
-        msg.angular.z = 1.0 # Set angular velocity
+        msg.linear.x = 0.2 # Set linear velocity
+        msg.angular.z = 0.2 # Set angular velocity
         self.cmd_publisher.publish(msg)
 
 def main(args=None):

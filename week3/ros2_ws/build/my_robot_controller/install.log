@@ -1,8 +1,10 @@
 /home/max/robotics-and-automation/week3/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py
 /home/max/robotics-and-automation/week3/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py
+/home/max/robotics-and-automation/week3/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/turtlebot_publisher.py
 /home/max/robotics-and-automation/week3/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/turtle_controller.py
 /home/max/robotics-and-automation/week3/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__pycache__/draw_circle.cpython-310.pyc
 /home/max/robotics-and-automation/week3/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__pycache__/__init__.cpython-310.pyc
+/home/max/robotics-and-automation/week3/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__pycache__/turtlebot_publisher.cpython-310.pyc
 /home/max/robotics-and-automation/week3/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__pycache__/turtle_controller.cpython-310.pyc
 /home/max/robotics-and-automation/week3/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages/my_robot_controller
 /home/max/robotics-and-automation/week3/ros2_ws/install/my_robot_controller/share/my_robot_controller/package.xml
@@ -15,3 +17,4 @@
 /home/max/robotics-and-automation/week3/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info/zip-safe
 /home/max/robotics-and-automation/week3/ros2_ws/install/my_robot_controller/lib/my_robot_controller/draw_circle
 /home/max/robotics-and-automation/week3/ros2_ws/install/my_robot_controller/lib/my_robot_controller/turtle_controller
+/home/max/robotics-and-automation/week3/ros2_ws/install/my_robot_controller/lib/my_robot_controller/turtlebot_publisher

@@ -22,6 +22,8 @@ setup(
         'console_scripts': [
             'draw_circle = my_robot_controller.draw_circle:main',
             'turtle_controller = my_robot_controller.turtle_controller:main',
+            'turtlebot_publisher = my_robot_controller.turtlebot_publisher:main',
+            'laser_scan_subscriber = my_robot_controller.laser_scan_subscriber:main',
         ],
     },
 )

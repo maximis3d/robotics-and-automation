@@ -1,4 +1,5 @@
 [console_scripts]
 draw_circle = my_robot_controller.draw_circle:main
 turtle_controller = my_robot_controller.turtle_controller:main
+turtlebot_publisher = my_robot_controller.turtlebot_publisher:main
 
