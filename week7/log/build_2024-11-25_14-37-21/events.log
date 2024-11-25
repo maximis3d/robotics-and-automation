@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000347] (-) JobUnselected: {'identifier': 'add_noise'}
+[0.000391] (robot_localization) JobQueued: {'identifier': 'robot_localization', 'dependencies': OrderedDict()}
+[0.000404] (robot_localization) JobStarted: {'identifier': 'robot_localization'}
+[0.004180] (robot_localization) JobProgress: {'identifier': 'robot_localization', 'progress': 'cmake'}
+[0.004365] (robot_localization) Command: {'cmd': ['/usr/bin/cmake', '/home/max/robotics-and-automation/week7/src/robot_localization', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/max/robotics-and-automation/week7/install/robot_localization'], 'cwd': '/home/max/robotics-and-automation/week7/build/robot_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,4836,0'), ('LANGUAGE', 'en_GB:en'), ('USER', 'max'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/max'), ('OLDPWD', '/home/max/robotics-and-automation/week7/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1966'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'max'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'max'), ('TERM', 'screen'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/usr/local/go/bin'), ('SESSION_MANAGER', 'local/max:@/tmp/.ICE-unix/1939,unix/max:/tmp/.ICE-unix/1939'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b15a1fbe_1e77_4bba_aa0f_abc8057f2019'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('TERM_PROGRAM', 'tmux'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/max/robotics-and-automation/week7/build/robot_localization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%4'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.037203] (robot_localization) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.068018] (robot_localization) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.072040] (robot_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099911] (-) TimerEvent: {}
+[0.112873] (robot_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.116581] (robot_localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.116715] (robot_localization) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.116903] (robot_localization) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.118403] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.164654] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.169376] (robot_localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.169551] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.169824] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.170221] (robot_localization) StdoutLine: {'line': b"-- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.\n"}
+[0.171183] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199980] (-) TimerEvent: {}
+[0.246180] (robot_localization) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.276765] (robot_localization) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.289555] (robot_localization) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[0.290723] (robot_localization) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300040] (-) TimerEvent: {}
+[0.313338] (robot_localization) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.315606] (robot_localization) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.319428] (robot_localization) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.324979] (robot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.334096] (robot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.355708] (robot_localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.357002] (robot_localization) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400133] (-) TimerEvent: {}
+[0.407310] (robot_localization) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.422711] (robot_localization) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.446161] (robot_localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.450071] (robot_localization) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.492980] (robot_localization) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.493114] (robot_localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.500203] (-) TimerEvent: {}
+[0.536453] (robot_localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.537162] (robot_localization) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.561541] (robot_localization) StdoutLine: {'line': b'-- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)\n'}
+[0.567873] (robot_localization) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[0.576315] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:22 (find_package):\n'}
+[0.576413] (robot_localization) StderrLine: {'line': b'  By not providing "Findgeographic_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[0.576458] (robot_localization) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[0.576491] (robot_localization) StderrLine: {'line': b'  "geographic_msgs", but CMake did not find one.\n'}
+[0.576521] (robot_localization) StderrLine: {'line': b'\n'}
+[0.576549] (robot_localization) StderrLine: {'line': b'  Could not find a package configuration file provided by "geographic_msgs"\n'}
+[0.576577] (robot_localization) StderrLine: {'line': b'  with any of the following names:\n'}
+[0.576605] (robot_localization) StderrLine: {'line': b'\n'}
+[0.576637] (robot_localization) StderrLine: {'line': b'    geographic_msgsConfig.cmake\n'}
+[0.576668] (robot_localization) StderrLine: {'line': b'    geographic_msgs-config.cmake\n'}
+[0.576695] (robot_localization) StderrLine: {'line': b'\n'}
+[0.576722] (robot_localization) StderrLine: {'line': b'  Add the installation prefix of "geographic_msgs" to CMAKE_PREFIX_PATH or\n'}
+[0.576748] (robot_localization) StderrLine: {'line': b'  set "geographic_msgs_DIR" to a directory containing one of the above files.\n'}
+[0.576775] (robot_localization) StderrLine: {'line': b'  If "geographic_msgs" provides a separate development package or SDK, be\n'}
+[0.576800] (robot_localization) StderrLine: {'line': b'  sure it has been installed.\n'}
+[0.576826] (robot_localization) StderrLine: {'line': b'\n'}
+[0.576853] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[0.576881] (robot_localization) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.576912] (robot_localization) StdoutLine: {'line': b'See also "/home/max/robotics-and-automation/week7/build/robot_localization/CMakeFiles/CMakeOutput.log".\n'}
+[0.582139] (robot_localization) CommandEnded: {'returncode': 1}
+[0.593623] (robot_localization) JobEnded: {'identifier': 'robot_localization', 'rc': 1}
+[0.600264] (-) TimerEvent: {}
+[0.603844] (-) EventReactorShutdown: {}

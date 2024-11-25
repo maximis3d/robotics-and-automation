@@ -1,0 +1,8 @@
+Starting >>> add_noise
+Starting >>> robot_localization
+Aborted  <<< add_noise [0.38s]
+
+Summary: 0 packages finished [0.51s]
+  1 package failed: robot_localization
+  1 package aborted: add_noise
+  1 package had stderr output: robot_localization
